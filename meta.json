@@ -6,7 +6,7 @@
   "tags": [],
   "url": "https://github.com/hamidb80/coverage",
   "refs": [
-    "fatal: unable to access 'https://github.com/hamidb80/coverage/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/hamidb80/coverage/': OpenSSL SSL_read: Network is unreachable, errno 101",
     ""
   ],
   "heads": []
