@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."github-hamidb80-nimcoverage-master".dir   = "master";
+  inputs."github-hamidb80-nimcoverage-master".owner = "nim-nix-pkgs";
+  inputs."github-hamidb80-nimcoverage-master".ref   = "master";
+  inputs."github-hamidb80-nimcoverage-master".repo  = "github-hamidb80-nimcoverage";
+  inputs."github-hamidb80-nimcoverage-master".type  = "github";
+  inputs."github-hamidb80-nimcoverage-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-hamidb80-nimcoverage-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
