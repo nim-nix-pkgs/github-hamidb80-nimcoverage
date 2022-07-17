@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1657152968,
-        "narHash": "sha256-XSAp/2kJxVwTZaAYRKrtA1yyPuf3I+jEPWKgF+F/yVY=",
+        "lastModified": 1658017948,
+        "narHash": "sha256-rGA4mxOL0pb9qkDaBNKEY1ODkC/aZlPydZDySdlu9aM=",
         "owner": "nim-nix-pkgs",
         "repo": "github-hamidb80-nimcoverage",
-        "rev": "de22bdd45ac1b1dc171af973e5e22049d87d551c",
+        "rev": "89e8fdc5c0e71538564635a214f50079a83f5843",
         "type": "github"
       },
       "original": {
